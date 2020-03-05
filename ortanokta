@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+# İkinci dereceden bilinmeyen bir fonksiyonun kökünü,rastgele iki x değeri tahmin ederek bulmaya çalışıyoruz.
+# Amaç arama yaptığımız aralığı sürekli olarak daraltarak köke yaklaşabildiğimiz en yakın oranda yaklaşabilmek veya kökü tam olarak bulabilmek.
+
 def fonk(x):
     return (x**2-2*x-15)
 
