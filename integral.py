@@ -14,7 +14,7 @@ for i in range(n):
 
 print(integral)
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+-----------------------------------------------------------------------------------------------------------------------------------------
 #Büyük dikdörtgenler ile yapılmış hali.
 #Bu sefer de sonuç bulmam gerekenden fazla çıkıyor ve deltax küçüldükçe fazladan alınan alanlar azalmış oluyor,gerçek değere yaklaşılıyor.
 
@@ -34,7 +34,7 @@ for i in range(n):
 
 print(integral)
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 #Uzun ve kısa dikdörtgenlerin ortasındaki noktaya göre integral alınıyor ve aynı zamanda yamuk yöntemidir.
 #Hassasiyet çok artar ve doğru sonuca çok yakın bir sonuç bulunur.
@@ -55,7 +55,7 @@ for i in range(n):
 
 print(integral)
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 #Üstel bir ifade üzerinde deneyelim.
 #Normaldeki sonuç 19.08 bizim bulduğumuz sonuç ise 19.48 oluyor.Deltayx'i bir hayli yüksek almamıza rağmen çok yakın bir sonuç bulduk.
