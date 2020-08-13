@@ -1,4 +1,4 @@
-# " a**2*x + b*x + c " şeklindeki bir ikinci derece denklemin köklerinin var olup olmadığını inceleyen,var ise kökleri ile çıktı olarak döndüren fonksiyon.
+# " a**2*x + b*x + c " şeklindeki bir ikinci dereceden bir bilinmeyenli denklemin köklerinin var olup olmadığını inceleyen,var ise kökleri ile çıktı olarak döndüren fonksiyon.
 
 def ikinciDerecedenDenklemKontrol(a,b,c):
     delta = b**2-4*a*c
