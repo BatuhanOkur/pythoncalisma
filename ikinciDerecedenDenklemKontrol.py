@@ -12,7 +12,7 @@ def ikinciDerecedenDenklemKontrol(a,b,c):
         x1 = -b/(2*a)
         print("İki adet çakışık reel kök vardır.")
         print("Kök : ",x1)
-    elif delta < 0:
+    else:
         print("Reel kök yok.")
 
 print(ikinciDerecedenDenklemKontrol(1,-2,-6)) 
