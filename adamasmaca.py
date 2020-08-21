@@ -68,10 +68,10 @@ while True:
         for i, char in enumerate(kelime):
             print(char if i in tahmin else "_"),
            
-        cevap = input("nKelimeyi Tahmin Edin: ")
+        cevap = input("\nKelimeyi Tahmin Edin: ")
        
         if cevap == kelime:
-            print("Kazandınız!nn")
+            print("Kazandınız!\n\n")
             break
         else:
             while True:
@@ -83,7 +83,7 @@ while True:
             adim += 1
        
         if adim >= len(resim):
-            print("Kaybettiniz!nn")
+            print("Kaybettiniz!\n\n")
             break
        
     if not "y" == input("Tekrar Oynamak İstermisiniz? (y/n): "):
