@@ -1,6 +1,3 @@
-"""
-Python Adam Asmaca Oyunu - Başka Bir Kod
-"""
 import random
 
 resim = ["""
