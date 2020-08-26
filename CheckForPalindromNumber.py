@@ -9,3 +9,10 @@ if(temp == top):
     print("Girdiginiz sayi palindrom.")
 else:
     print("Girdiginiz sayi palindrom degil.")
+    
+# ya da pythonun kolayliklarindan faydalanip asagidaki yontemi kullanabiliriz.    
+def ispalindrome(n):
+    if str(n) == str(n)[::-1]:
+        return "1"
+    else:
+        return "0"
