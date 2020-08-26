@@ -79,3 +79,8 @@ def nCr(n,r):
     """n eleman içinden r'nin kaç farklı şekilde seçilebileceğini veren fonksiyon"""
     from math import factorial
     return(int(factorial(n)/(factorial(r)*factorial(n-r))))
+
+def isPalindrome(n):
+    if str(n) == str(n)[::-1]:
+        return 1
+    return 0
