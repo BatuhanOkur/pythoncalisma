@@ -80,7 +80,7 @@ def nCr(n,r):
     from math import factorial
     return(int(factorial(n)/(factorial(r)*factorial(n-r))))
 
-def isPalindrome(n):
+def ispalindrome(n):
     if str(n) == str(n)[::-1]:
         return 1
     return 0
