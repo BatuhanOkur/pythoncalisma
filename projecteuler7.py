@@ -1,3 +1,4 @@
+#https://projecteuler.net/problem=7
 from functions import isprime
 
 number,counter = 1,0

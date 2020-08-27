@@ -1,3 +1,4 @@
+#https://projecteuler.net/problem=9
 for a in range(1,400):
     for b in range(a+1,400):
         c = 1000-a-b
